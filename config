@@ -1,2 +1,3 @@
 [build]
 target = "armv7a-none-eabi"
+rustflags = ["-C", "link-args=-lc"]
